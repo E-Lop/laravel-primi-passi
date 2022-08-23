@@ -7,6 +7,14 @@
     <title>Welcome to Laravel</title>
 </head>
 <body>
+<header>
+    <a href="{{ route('about') }}">Vai ad Chi-siamo</a>
+    <a href="{{ route('projects') }}">Vai a Progetti</a>
+    <a href="{{ route('tools') }}">Vai a Risorse</a>
+</header>    
+
+<main>
     <h1>Hello World</h1>
+</main>
 </body>
 </html>

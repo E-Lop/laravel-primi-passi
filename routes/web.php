@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-})->name('home');
+    return view('home', ['name'=> 'Edmondo']);
+})->name('home',);
 
 Route::get('/chi-siamo', function () {
     return view('about');
